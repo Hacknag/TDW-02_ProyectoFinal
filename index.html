@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/x-icon" href="" />
+    <link rel="icon" type="image/x-icon" href="img/VinoFavicon.webp" />
   </head>
   <body id="inicio">
     <!-- Section 0 - HEADER -->
@@ -19,9 +19,9 @@
     <header class="container-fluid seccion0 fixed-top">
       <div class="container">
         <nav class="navbar navbar-expand-lg">
-          <a class="color-1" href="#inicio">Inicio</a>
+          <a class="color-1 my-1" id="btn-inicio" href="#inicio">Inicio</a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler hamburger"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarText"
@@ -81,9 +81,9 @@
           <img class="fish-img" src="img/peces.svg" />
         </div>
         <div class="col-2-lg col-md-2 vertical2">
-          <h3>HISTORY</h3>
+          <h3>HISTORIA</h3>
         </div>
-        <div class="col-12 col-md-10 col-lg-4 pt-4">
+        <div class="col-12 col-md-10 col-lg-4 pt-4 texto2">
           <p>
             El crujido de los barcos de pesca arrastrados a la playa de
             guijarros. La larga caminata por una escalera de piedra, hacia una
@@ -103,6 +103,98 @@
             la abundante comida con familia y amigos parezca sin esfuerzo.
           </p>
         </div>
+      </div>
+    </section>
+
+    <!-- SECCION 3 - VINOS -->
+    <!-- SECCION 3 - VINOS -->
+    <section class="seccion3">
+      <h2 class="ovinos text-center">Nuestros Vinos</h2>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="img/botella1.png" class="img-width" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/botella2.png" class="img-width" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/botella3.png" class="img-width" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/botella4.png" class="img-width" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fourth slide label</h5>
+              <p>
+                Some representative placeholder content for the fourth slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
 
