@@ -62,6 +62,7 @@
 .seccion1 {
     width: 100vw;
     height: 100vh;
+    background-color: #db8384;
 }
 
 .textSeccion1 {
@@ -105,7 +106,7 @@
 /* Seccion 2 */
 
 .seccion2 {
-
+    height: 100vh;
     background-color: #db8384;
 }
 
@@ -179,16 +180,126 @@
 
 .seccion3 {
     width: 100vw;
-    height: 1100px;
+    height: 100vh;
     background-color: #bfbbbb;
     padding-top: 35px;
 }
 
-.img-width {
-    max-width: 100%;
-    height: 50rem;
+
+
+@media(min-width: 1400px) {
+    .img-width {
+        max-width: 100%;
+        height: 70vh;
+    }
 }
 
+@media(min-width: 1200px) and (max-width:1399px) {
+    .img-width {
+        max-width: 100%;
+        height: 65vh;
+    }
+}
+
+@media(min-width: 1200px) and (max-width:1399px) {
+    .img-width {
+        max-width: 100%;
+        height: 60vh;
+    }
+}
+
+@media(min-width: 992px) and (max-width:1199px) {
+    .img-width {
+        max-width: 100%;
+        height: 55vh;
+    }
+}
+
+@media(min-width: 768px) and (max-width:991px) {
+    .img-width {
+        max-width: 100%;
+        height: 50vh;
+    }
+}
+
+@media(min-width: 576px) and (max-width:767px) {
+    .img-width {
+        max-width: 100%;
+        height: 45vh;
+    }
+}
+
+@media (max-width:576px) {
+    .img-width {
+        max-width: 100%;
+        height: 40vh;
+    }
+}
+
+.seccion3 h4 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.caption3 {
+    right: 15%;
+    bottom: 0;
+    left: 15%;
+    padding-bottom: 2rem;
+    color: #fff;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+
+/* Seccion 4 */
+
+.seccion4 h2 {
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 45px;
+}
+
+.seccion4 {
+    background-color: #db8384;
+    height: 100vh;
+}
+
+
+.contact-form .form-group {
+    margin-bottom: 25px;
+}
+
+.contact-form .form-control {
+    height: 52px;
+    border: 1px solid transparent;
+    box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 10%);
+    border-radius: 5px;
+    padding: 0 24px;
+    color: #000;
+    transition: all 0.5s ease;
+}
+
+.contact-form textarea.form-control {
+    height: 200px;
+    padding-top: 12px;
+    resize: none;
+}
+
+
+
+.btnOrder {
+    padding: 20px;
+    background-color: #fff;
+    color: #db8384;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 
 /* Scroll top butoon */
