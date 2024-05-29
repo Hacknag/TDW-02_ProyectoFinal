@@ -254,6 +254,7 @@
 
 
 /* Seccion 4 */
+/* Seccion 4 */
 
 .seccion4 h2 {
     padding-bottom: 20px;
@@ -301,6 +302,32 @@
     font-weight: bold;
 }
 
+/* Seccion 5 */
+/* Seccion 5 */
+
+.seccion5 {
+    background-image: url(../img/VinoFondo.avif);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+    padding: 150px 0;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seccion5 h2 {
+    font-size: 5rem;
+    color: #fff;
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+.seccion5 p {
+    color: #fff;
+    font-size: 1.125rem;
+}
 
 /* Scroll top butoon */
 /* Scroll top butoon */
