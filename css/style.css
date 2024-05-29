@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Style+Script&display=swap');
+
+
+* {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+/* Seccion 0 */
+/* Seccion 0 */
+.seccion0 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.color-w:hover {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+
+.color-1:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+
+/* Seccion 1 */
+/* Seccion 1 */
+.seccion1 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.textSeccion1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    line-height: 50px;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.textSeccion1 p {
+    display: block;
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.span1 {
+    font-family: "Edu TAS Beginner", cursive;
+    font-weight: 400;
+    font-style: bolder;
+    color: #db8384;
+}
+
+.video1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+
+
+/* Seccion 2 */
+/* Seccion 2 */
+
+.seccion2 {
+
+    background-color: #db8384;
+}
+
+/* .vertical2 {} */
+
+
+
+@media (min-width: 768px) {
+    .vertical2 {
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .medium-and-large-only {
+        display: none;
+    }
+
+    .text-style2 {
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+.fish-img {
+    animation: foodImgRotate 50s linear infinite;
+}
+
+@keyframes foodImgRotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* Scroll top butoon */
+/* Scroll top butoon */
+.botonScrollTop {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background-color: #fff;
+    right: 30px;
+    bottom: 25px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scrollTop-color {
+    color: #000;
+}
+
+
+/* Footer */
+/* Footer */
+footer {
+    padding: 1rem 6rem;
+    background-color: #000;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
