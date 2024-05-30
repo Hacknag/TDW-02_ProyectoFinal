@@ -164,8 +164,12 @@
 
 }
 
+.img-cont {}
+
 .fish-img {
     animation: foodImgRotate 50s linear infinite;
+    height: 90%;
+    width: auto;
 }
 
 @keyframes foodImgRotate {
